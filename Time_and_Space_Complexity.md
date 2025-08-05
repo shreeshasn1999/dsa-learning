@@ -19,9 +19,18 @@ We can and want to manage the Auxiliary space effectively while thinking of the 
 
 # Example of Big O notation:
 Taking a for loop example 
-<pre> ```javascript for(let i=0;i<n;i++){if(i%2 == 0){print("Even")}else{print("Odd")}}``` </pre>
+```javascript 
+  for(let i=0;i<n;i++){
+      if(i%2 == 0){
+          print("Even");
+      }
+      else{
+        print("Odd");
+      }
+    }
+```
 
-In the above example:
+# In the above example:
 1. Time Complexity
   - per iteration 'i<n', 'i++' , if(i%2==0) or else with print statements are executed. With let 'i=0' as one statement that runs on the first iteration.
   - so the number of operations would be 4n + 1.
