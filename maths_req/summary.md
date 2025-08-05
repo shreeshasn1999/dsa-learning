@@ -19,7 +19,7 @@
 
 # Reversing a number
 - If we see the digit extraction we see that same sequence of steps can be used for reversing number also.
-- All we need to is to change it so that each iteration multiply the number previously stored by 10 and then add the remainder result to it.
+- We need to is to change it so that each iteration multiply the number previously stored by 10 and then add the remainder result to it.
 
 # Palindrome
 - We run from 0 upto floor(n/2) compare i with n-1-i.
