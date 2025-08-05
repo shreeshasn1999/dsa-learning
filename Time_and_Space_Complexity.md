@@ -19,7 +19,8 @@ We can and want to manage the Auxiliary space effectively while thinking of the 
 
 # Example of Big O notation:
 Taking a for loop example 
-<pre>```javascript for(let i=0;i<n;i++){if(i%2 == 0){print("Even")}else{print("Odd")}}```</pre>
+<pre>```javascript for(let i=0;i<n;i++){if(i%2 == 0){print("Even")}else{print("Odd")}}```
+</pre>
 
 In the above example:
 1. Time Complexity
