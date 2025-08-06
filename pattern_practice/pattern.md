@@ -9,4 +9,4 @@ Printing the pattern given on TUF website. These are mainly to strengthen loop c
 4. observe symmetry in case of some patterns.
 
 # Python specific changes
-In the print statements for python by default always in "\n" character. So the line character to be different we need to specify end parameter to be empty string.
+In the print statements for python by default always in "\n" character. So if we want to change it, we need to specify end parameter to be empty string.
